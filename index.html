@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Modal</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Guarda o valor booleano da visibilidade do modal -->
+        <input type="checkbox" id="isChecked" hidden>
+
+        <!-- O Modal -->
+        <div id="modal" hidden>
+            <h1>MODAL!</h1>
+            <label for="isChecked" id="close">Close</label>
+        </div>
+
+        <!-- O Botão de abrir o modal -->
+        <label for="isChecked" id="activate">Open</label>
+    </div>
+</body>
+
+</html>
